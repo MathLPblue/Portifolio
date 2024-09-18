@@ -1,0 +1,138 @@
+.section-sobre {
+    margin:0;
+    flex-direction: column;
+    margin-left: 250px; 
+    padding: 20px;
+    min-height: 60vh;
+    height: 100%;
+    /*background: rgb(202,209,255);
+    background: linear-gradient(90deg, rgba(202,209,255,0.5550595238095238) 6%, rgba(214,214,214,1) 18%);
+*/}
+
+@media (max-width: 768px) {
+    .section-sobre {
+        margin-left: 0;
+        padding: 10px;
+    }
+}
+
+.containerSobre {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex:1;
+
+}
+
+.heading-Sobre {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.heading-Sobre h2 {
+    font-size: 80px; 
+    color: #adadad; 
+    opacity: 1; 
+    text-transform: uppercase;
+    font-weight: 600;
+    
+    
+}
+
+.heading-Sobre p {
+    font-size: 30px;
+    color: #000000; 
+    font-weight: 600;
+    line-height: 1.6; 
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0; 
+}
+
+.heading-Sobre p::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #004085; 
+    margin: 0 auto;
+    width: 100px; 
+    position: absolute;
+    left: 50%;
+    bottom: -10px; 
+    transform: translateX(-50%);
+}
+
+
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.row-Sobre {
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+}
+
+.coluna-Sobre {
+    flex: 1;
+    padding: 20px;
+}
+
+.textoColuna {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.textoPrimario {
+    color: #286387; 
+}
+.textoSobre{
+    text-align:justify;
+}
+
+.coluna2 {
+    flex: 1;
+    padding: 20px;
+}
+
+.colunaContatos {
+    background-color: transparent;
+    padding: 20px;
+
+}
+
+.lista-Sobre {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-Sobre li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.lista-Sobre span {
+    font-weight: bold;
+    color: #333;
+}
+
+.separador-Sobre {
+    margin-top: auto;
+    padding:20px;
+    justify-content: flex-end;
+    display:flex;
+    
+}
+.caixa-Sobre {
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}

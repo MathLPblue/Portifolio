@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Fira Code', sans-serif; /* Estou pensando se deixo esta ou a do Ubuntu....*/ 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

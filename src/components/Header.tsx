@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Header.css';
-import slide3 from '../assets/slide3.jpg';
+import perfil from '../assets/perfil.jpg';
 
 const Header: React.FC = () => {
     return (
@@ -11,16 +11,16 @@ const Header: React.FC = () => {
                     <div className="perfil">
                     <a href="#" title="Desenvolvedor de Software">
                         <span>
-                            <img src={slide3}style={{width: '150px', height:'150px', objectFit:'cover', justifyContent:'center'}} />
+                            <img src={perfil}style={{width: '150px', height:'150px', objectFit:'cover', justifyContent:'center'}} />
                         </span>
                         <h2>Matheus Medeiros</h2>
                     </a>
                     </div>
                     <div className="nav-links">
                         <ul className = "lista">
-                            <li><a href="#inicio">Início</a></li>
-                            <li><a href="#sobre">Sobre mim</a></li>
-                            <li><a href="#sobre">Habilidades</a></li>
+                            <li><a href="#Home">Início</a></li>
+                            <li><a href="#Sobre">Sobre mim</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
                             <li><a href="#portifolio">Portifólio</a></li>
                             <li><a href="#contatos">Contatos</a></li>
                         </ul>

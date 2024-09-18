@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -36,3 +37,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
+
+html {
+  margin:0;
+  margin-bottom: 0;
+  scroll-behavior: smooth;
+  background: rgb(202,209,255);
+  background: linear-gradient(90deg, rgba(202,209,255,0.5550595238095238) 53%, rgba(214,214,214,1) 85%);
+}
+

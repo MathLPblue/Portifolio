@@ -6,7 +6,7 @@ import wallpaper from '../assets/wallpaper.jpg';
 const HeroSection: React.FC = () => {
   return (
     <div>
-      <section id="home">
+      <section id="Home">
         <div className='hero-section'>
           <div className="overlay bg-dark"/>
           

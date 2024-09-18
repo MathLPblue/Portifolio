@@ -1,0 +1,109 @@
+.portifolio {
+    margin-top: 0;
+    margin-left: 250px; 
+    padding: 20px;
+    min-height: 75vh; 
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+@media (max-width: 768px) {
+    .portifolio {
+        margin-left: 0; 
+        padding: 10px; 
+        flex-direction: column; 
+        gap: 10px; 
+    }
+}
+
+.heading-Portifolio {
+    position: relative;
+    text-align: center; 
+    width: 100%;
+    margin-bottom: 30px; 
+}
+
+.heading-Portifolio h2 {
+    font-size: 80px; 
+    color: #adadad; 
+    opacity: 1; 
+    text-transform: uppercase; 
+    font-weight: 600; 
+}
+
+.heading-Portifolio p {
+    font-size: 30px;
+    color: #000000; 
+    font-weight: 600;
+    line-height: 1.6; 
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0; 
+}
+
+.heading-Portifolio p::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #004085; 
+    margin: 0 auto;
+    width: 100px; 
+    position: absolute;
+    left: 50%;
+    bottom: -10px; 
+    transform: translateX(-50%); 
+}
+
+.popup-Portifolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imgPortifolio {
+    position: relative; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 20%; 
+}
+
+.imgPortifolio img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.portifolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+.imgPortifolio:hover .portifolio-overlay {
+    opacity: 1; 
+}
+
+.portifolio-overlayDetalhes {
+    color: #fff; 
+    text-align: center; 
+}
+
+.portifolio-overlayDetalhes h5 {
+    font-size: 24px; 
+    font-weight: 600; 
+}
