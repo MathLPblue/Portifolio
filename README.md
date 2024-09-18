@@ -18,7 +18,7 @@ Bem-vindo ao meu portfólio! Me chamo, desenvolvedor Full-Stack especializado em
 - [TypeScript](https://www.typescriptlang.org/)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Git](https://git-scm.com/)
-- [GitHub Pages]()
+- [GitHub Pages](https://mathlpblue.github.io/Portifolio/)
 
 ## Funcionalidades
 
