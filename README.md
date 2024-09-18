@@ -28,7 +28,8 @@ Bem-vindo ao meu portfólio! Me chamo, desenvolvedor Full-Stack especializado em
 
 ## Screenshot
 
-![Página Inicial](src\assets\screenshots\homepage.png)
+![Página Inicial](src/assets/screenshots/homepage.png)
+
 
 ## Clone
 
