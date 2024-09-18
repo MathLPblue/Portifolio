@@ -117,20 +117,29 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    transition: transform 0.3s ease;
 }
 
 .redesSociais img.icon {
     width: 48px;
     height: 48px;
     margin-right: 20px;
+    transition: transform 0.3s ease;
 }
 
 .redesSociais a {
     text-decoration: none;
     color: #004085;
+    transition: transform 0.3s ease;
 }
 
 .redesSociais a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
+.redesSociais li:hover img.icon{
+    transform: scale(1.2); 
+}
+.redesSociais li:hover a {
+    transform: scale(1.2);
+}
