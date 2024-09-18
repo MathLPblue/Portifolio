@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portifolio/static/css/main.a46438eb.css",
-    "main.js": "/Portifolio/static/js/main.7eb2f839.js",
+    "main.css": "/Portifolio/static/css/main.78eb559d.css",
+    "main.js": "/Portifolio/static/js/main.b0258e7c.js",
     "static/js/453.8393ad3d.chunk.js": "/Portifolio/static/js/453.8393ad3d.chunk.js",
     "static/media/wallpaper.jpg": "/Portifolio/static/media/wallpaper.6d351424ec250cce5762.jpg",
     "static/media/breve.png": "/Portifolio/static/media/breve.b5f25748aec5384d149a.png",
     "static/media/MatheusCurriculo.pdf": "/Portifolio/static/media/MatheusCurriculo.44d044e4e9ea851fcbad.pdf",
     "static/media/perfil.jpg": "/Portifolio/static/media/perfil.63952beecccaaf7242e0.jpg",
     "index.html": "/Portifolio/index.html",
-    "main.a46438eb.css.map": "/Portifolio/static/css/main.a46438eb.css.map",
-    "main.7eb2f839.js.map": "/Portifolio/static/js/main.7eb2f839.js.map",
+    "main.78eb559d.css.map": "/Portifolio/static/css/main.78eb559d.css.map",
+    "main.b0258e7c.js.map": "/Portifolio/static/js/main.b0258e7c.js.map",
     "453.8393ad3d.chunk.js.map": "/Portifolio/static/js/453.8393ad3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a46438eb.css",
-    "static/js/main.7eb2f839.js"
+    "static/css/main.78eb559d.css",
+    "static/js/main.b0258e7c.js"
   ]
 }
