@@ -2,10 +2,10 @@
     margin-top: 0;
     margin-left: 250px; 
     padding: 20px;
-    min-height: 90vh; 
+    min-height: 80vh; 
     display: flex;
     justify-content: center; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {

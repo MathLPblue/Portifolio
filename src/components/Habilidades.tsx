@@ -17,7 +17,7 @@ const Habilidades: React.FC = () => {
         <section id="habilidades" className="Habilidades">
             <div className="container-Habilidades">
                 <div className="heading-Habilidades">
-                    <h2>&lt;Habilidades&gt;</h2>
+                    <h2>Habilidades</h2>
                     <p>Habilidades</p>
                 </div>
 

@@ -6,8 +6,8 @@ const Portifolio: React.FC = () =>{
         <section id="portifolio" className="portifolio">
             <div className="container-Portifolio">
                 <div className="heading-Portifolio">
-                    <h2>Portifolio</h2>
-                    <p>Portifolio</p>
+                    <h2>Portifólio</h2>
+                    <p>Portifólio</p>
                 </div>
                 <div className="popup-Portifolio">
                     <div className="rowPortiolio">

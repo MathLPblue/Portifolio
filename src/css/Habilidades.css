@@ -8,7 +8,7 @@ background: linear-gradient(90deg, rgba(202,209,255,0.5550595238095238) 20%, rgb
 
     margin-left: 250px; 
     padding: 20px;
-    min-height: 75vh;
+    min-height: 80vh;
     display:flex;
     gap:20;
     justify-content: center;
