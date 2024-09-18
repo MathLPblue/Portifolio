@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Sobre from './components/Sobre';
@@ -7,8 +7,11 @@ import './App.css';
 import Portifolio from './components/Portifolio';
 import Contatos from './components/Contatos';
 
-
 function App() {
+  useEffect(() => {
+    document.title = "Portifolio";
+  }, []);
+
   return (
     <div className="container">
       <Header/>
@@ -19,11 +22,7 @@ function App() {
         <Portifolio/>
         <Contatos/>
       </div>
-
     </div>
-
- 
-
   );
 }
 

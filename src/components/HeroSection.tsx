@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
                     <h1>Desenvolvedor de Software</h1>
                   </div>
                   <p className="welcome-text">Bem vindo</p>
-                  <a href="#contato" className="btn-contato">Contato</a>
+                  <a href="#contatos" className="btn-contato">Contato</a>
                 </div>
               </div>
             </div>

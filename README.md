@@ -9,11 +9,8 @@ Bem-vindo ao meu portfólio! Me chamo, desenvolvedor Full-Stack especializado em
 - [Sobre](#sobre)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Funcionalidades](#funcionalidades)
-- [Capturas de Tela](#capturas-de-tela)
-- [Como Instalar](#como-instalar)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
-- [Contato](#contato)
+- [Capturas de Tela](#screenshot)
+- [Clone o repositório](#clone)
 
 ## Tecnologias Utilizadas
 
@@ -21,7 +18,7 @@ Bem-vindo ao meu portfólio! Me chamo, desenvolvedor Full-Stack especializado em
 - [TypeScript](https://www.typescriptlang.org/)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Git](https://git-scm.com/)
-- [GitHub Pages](https://pages.github.com/)
+- [GitHub Pages]()
 
 ## Funcionalidades
 
@@ -32,11 +29,10 @@ Bem-vindo ao meu portfólio! Me chamo, desenvolvedor Full-Stack especializado em
 ## Screenshot
 
 ![Página Inicial](./assets/screenshots/homepage.png)
-![Página de Contatos](./assets/screenshots/contato.png)
 
-## Como ver o código fonte
+## Clone
 
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-portifolio.git
+   git clone https://github.com/MathLPblue/Portifolio.git
